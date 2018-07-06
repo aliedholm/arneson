@@ -1,0 +1,27 @@
+.page-title {
+	text-align: left;
+	font-size: 1.5em;
+}
+
+.page-subtitle {
+	text-align: left;
+	font-size: 1.35em;
+	font-style: italic;
+}
+
+.sub-divide {
+	text-align: right;
+	font-size: 1.25em;
+	font-style: italic;
+}
+
+.bibliographical {
+	font-size: 1em;
+	font-style: normal;
+}
+
+.body-text {
+	font-size: 1em;
+	font-style: normal;
+	color: black;
+}
