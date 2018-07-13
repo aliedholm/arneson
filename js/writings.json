@@ -1,0 +1,25 @@
+var writings = [
+	{
+		"title" : "Four Conceptions of Equal Opportunity",
+		"journal" : "Economic Journal",
+		"year" : "2017",
+		"pp" : "",
+		"filename" : "four-conceptions-of-equal-opportunity.pdf",
+	},
+	{
+		"title" : "Freedom and Religion",
+		"journal" : "Oxford Handbook of Freedom",
+		"year" : "forthcoming",
+		"pp" : "",
+		"filename" : "freedom-and-religion.pdf",
+	},
+	{
+		"title" : "Exploitation andy Outcome",
+		"journal" : "Politics, Philosophy, and Economics 12, No. 4",
+		"year" : "2013",
+		"pp" : "392-412",
+		"filename" : "four-conceptions-of-equal-opportunity.pdf",
+	},
+
+
+]
