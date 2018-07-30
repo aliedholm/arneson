@@ -3,7 +3,18 @@
 	font-size: 1.5em;
 }
 
-.page-subtitle {
+.card-header {
+	text-align: left;
+	font-size: 1.20em;
+	font-style: bold;
+}
+
+.contact-text {
+	font-size: .95em;
+	font-style: italic;
+}
+
+.page-subnav {
 	text-align: left;
 	font-size: 1.15em;
 	font-style: italic;
