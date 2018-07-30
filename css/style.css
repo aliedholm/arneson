@@ -1,11 +1,16 @@
 .page-title {
 	text-align: left;
-	font-size: 1.5em;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.navbar-brand {
+	font-size: 2em;
 }
 
 .card-header {
 	text-align: left;
-	font-size: 1.20em;
+	font-size: 1.5em;
 	font-style: bold;
 }
 
@@ -27,7 +32,7 @@
 }
 
 .bibliographical {
-	font-size: 1em;
+	font-size: .9em;
 	font-style: normal;
 }
 

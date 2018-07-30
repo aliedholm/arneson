@@ -60,14 +60,14 @@ wipBib.sort(compare);
 function createHTML (writingsSet) {
 	var frame = '';
 	for (var j=0; j < writingsSet.length;	 j ++) {
-		frame += "<li class='list-group-item body-text'>"; 
+		frame += "<li class='list-group-item bibliographical'>"; 
 		if (writingsSet[j].filename != "na") {
 			frame += "<a href='" + writingsSet[j].filename + "'>";
-			frame += "''" + writingsSet[j].title + ",'' ";
+			frame += "<b>''" + writingsSet[j].title + "</b>,'' ";
 			frame += "</a>"
 		}
 		else {
-			frame += "''" + writingsSet[j].title + ",'' ";
+			frame += "''<b>" + writingsSet[j].title + "</b>,'' ";
 		}
 		if (writingsSet[j].eds != "na") {
 			frame += "eds." + writingsSet[j].eds + " ";

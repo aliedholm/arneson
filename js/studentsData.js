@@ -1,3 +1,5 @@
+//cpo must be either "current", "past", or "other"
+//year must be filled out
 var students = [
 	{
 		"studentName" : "Cory Davia",

@@ -58,10 +58,10 @@ function createHTML (courseSet) {
 	var frame = '';
 	for (var j=0; j < courseSet.length;	 j ++) {
 		if (courseSet[j].filename != "na") {
-			frame += "<li class='list-group-item body-text'>" + courseSet[j].courseCode + " " + courseSet[j].courseNum + " - " + courseSet[j].title + " (" + courseSet[j].quarter + " " + courseSet[j].year + ") " + "<a href='documents/syllabi/" + courseSet[j].filename + "''>" + "[syllabus]" + "</a></li>";
+			frame += "<li class='list-group-item body-text'><b>" + courseSet[j].courseCode + " " + courseSet[j].courseNum + "</b> - " + courseSet[j].title + " (" + courseSet[j].quarter + " " + courseSet[j].year + ") " + "<a href='documents/syllabi/" + courseSet[j].filename + "''>" + "[syllabus]" + "</a></li>";
 		}
 		else {
-		frame += "<li class='list-group-item body-text'>" + courseSet[j].courseCode + " " + courseSet[j].courseNum + " - " + courseSet[j].title + " (" + courseSet[j].quarter + " " + courseSet[j].year + ") " + "</li>";
+		frame += "<li class='list-group-item body-text'><b>" + courseSet[j].courseCode + " " + courseSet[j].courseNum + "</b> - " + courseSet[j].title + " (" + courseSet[j].quarter + " " + courseSet[j].year + ") " + "</li>";
 		}
 	}
 	return frame;
