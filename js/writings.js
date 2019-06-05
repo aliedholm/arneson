@@ -62,7 +62,7 @@ function createHTML (writingsSet) {
 	for (var j=0; j < writingsSet.length;	 j ++) {
 		frame += "<li class='list-group-item bibliographical'>"; 
 		if (writingsSet[j].filename != "na") {
-			frame += "<a href='/documents/writings" + writingsSet[j].filename + "'>";
+			frame += "<a href='documents/writings/" + writingsSet[j].filename + "'>";
 			frame += "<b>''" + writingsSet[j].title + "</b>,'' ";
 			frame += "</a>"
 		}

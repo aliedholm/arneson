@@ -57,7 +57,7 @@ var writings = [
 		"eds" : "H. Hurd",
 		"year" : "2018",
 		"pp" : "na",
-		"filename" : "democracy's-travails.pdf"
+		"filename" : "deontologys-travails.pdf"
 	},
 	{
 		"title" : "Exploitation, Domination, Comptitive Markets, and Unfair Division",
@@ -177,7 +177,7 @@ var writings = [
 		"eds" : "D. Weinstock and R. Merrill",
 		"year" : "2014",
 		"pp" : "25-43",
-		"filename" : "neutrality-anbd-political-liberalism.pdf"
+		"filename" : "neutrality-and-political-liberalism.pdf"
 	},
 	{
 		"title" : "Discrimination, Disparate Impact, and Theories of Justice",
@@ -185,7 +185,7 @@ var writings = [
 		"eds" : "S. Moreau and D. Hellman",
 		"year" : "2013",
 		"pp" : "87-111",
-		"filename" : "discrimination-dissparate-impoact-and-theories-of-justice.pdf"
+		"filename" : "discrimination-disparate-impact-and-theories-of-justice.pdf"
 	},
 	{
 		"title" : "The Enforcement of Morals Revisited",
@@ -225,7 +225,7 @@ var writings = [
 		"eds" : "T. Christiano and J. Christman",
 		"year" : "2009",
 		"pp" : "197-212",
-		"filename" : "supposed-right-to-a-democratic-say"
+		"filename" : "supposed-right-to-a-democratic-say.pdf"
 	},
 	{
 		"title" : "What Is Wrongful Discrimination?",
@@ -257,7 +257,7 @@ var writings = [
 		"eds" : "na",
 		"year" : "2005",
 		"pp" : "259-284",
-		"filename" : "joel-feinberg-and-the-justification-of-hard-paternalism.,pdf"
+		"filename" : "joel-feinberg-and-the-justification-of-hard-paternalism.pdf"
 	},
 	{
 		"title" : "The Meaning of Marriage and State Efforts to Facilitate Friendship, Love, and Child-rearing",
@@ -281,7 +281,7 @@ var writings = [
 		"eds" : "na",
 		"year" : "2005",
 		"pp" : "255-285",
-		"filename" : "the-shape-of-lockean-=rights-pareto-fairness-and-consent.pdfpdf"
+		"filename" : "the-shape-of-lockean-rights-pareto-fairness-and-consent.pdf"
 	},
 	{
 		"title" : "Cracked Foundations of Liberal Equality",
@@ -401,7 +401,7 @@ var writings = [
 		"eds" : "na",
 		"year" : "2008",
 		"pp" : "371-391",
-		"filename" : "justice-in-not-equality.pdf"
+		"filename" : "justice-is-not-equality.pdf"
 	},
 	{
 		"title" : "Does Social Justice Matter? Brian Barry's Applied Political Philosophy",
@@ -409,7 +409,7 @@ var writings = [
 		"eds" : "na",
 		"year" : "2007",
 		"pp" : "391-412",
-		"filename" : "does-social-justice-matter-brian-barry's-applied-political-philosophy.pdf"
+		"filename" : "does-social-justice-matter-brian-barrys-applied-political-philosophy.pdf"
 	},
 	{
 		"title" : "Good, Period [review of Judith Thonmson, Normativity]",
@@ -481,7 +481,7 @@ var writings = [
 		"eds" : "na",
 		"year" : "1999",
 		"pp" : "488-497",
-		"filename" : "equal-opportunity-for-welfare-defended-and-recanted"
+		"filename" : "equal-opportunity-for-welfare-defended-and-recanted.pdf"
 	},
 	{
 		"title" : "Against Rawlsian Equality of Opportunity",
@@ -497,7 +497,7 @@ var writings = [
 		"eds" : "na",
 		"year" : "1998",
 		"pp" : "21-36",
-		"filename" : "what-sort-of-equality-if-any-should-feminists-seek.pdf"
+		"filename" : "what-sort-of-sexual-eqality-if-any-should-feminists-seek.pdf"
 	},
 	{
 		"title" : "Democratic Equality and relating as Equals",

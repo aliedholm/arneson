@@ -65,7 +65,7 @@ var courses = [
 	},
 	{
 		"title" : "Theories of Distributive Justice",
-		"courseNum" : "202",
+		"courseNum" : "252",
 		"courseCode" : "Philosophy",
 		"quarter" : "Spring",
 		"year" : "2014",
@@ -121,7 +121,7 @@ var courses = [
 	},
 	{
 		"title" : "Theories of Distributive Justice",
-		"courseNum" : "202",
+		"courseNum" : "232",
 		"courseCode" : "Philosophy",
 		"quarter" : "Spring",
 		"year" : "2014",
