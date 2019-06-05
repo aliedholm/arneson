@@ -1,32 +1,56 @@
 //creating the data array for all the finalized data
-var currentStudents = [];
-var pastStudents = [];
-var otherStudents = [];
+var cchStudents = [];
+var cmbStudents = [];
+var pchStudents = [];
+var pmbStudents = [];
+var othStudents = [];
+var udgStudents = [];
 var nonNumStudents = [];
+
 //creating the arrays for each main section of the page
-var current = [];
-var past = [];
-var other = [];
+var cch = [];
+var cmb = [];
+var pch = [];
+var pmb = [];
+var oth = [];
+var udg = [];
+
 //storting the contention section from html as a variable
-var currentSection = document.getElementById('current');
-var pastSection = document.getElementById('past');
-var otherSection = document.getElementById('other');
+var cchSection = document.getElementById('cch');
+var cmbSection = document.getElementById('cmb');
+var pchSection = document.getElementById('pch');
+var pmbSection = document.getElementById('pmb');
+var othSection = document.getElementById('oth');
+var udgSection = document.getElementById('udg');
+
 //varibles for the frames that will hold the data
-var currentFrame = '';
-var pastFrame = '';
-var otherFrame = '';
+var cchFrame = '';
+var cmbFrame = '';
+var pchFrame = '';
+var pmbFrame = '';
+var othFrame = '';
+var udgFrame = '';
 
 //function to parse the main data array into sections by upper, lower and grad
 function sectionate(students) {
 	for (var i=0; i < students.length; i++) {
-		if (students[i].cpo == "current") {
-			currentStudents.push(students[i]);
+		if (students[i].cpo == "cch") {
+			cchStudents.push(students[i]);
 		}
-		else if (students[i].cpo == "past") {
-			pastStudents.push(students[i]);
+		else if (students[i].cpo == "cmb") {
+			cmbStudents.push(students[i]);
 		}
-		else if (students[i].cpo == "other") {
-			otherStudents.push(students[i]);
+		else if (students[i].cpo == "pch") {
+			pchStudents.push(students[i]);
+		}
+		else if (students[i].cpo == "pmb") {
+			pmbStudents.push(students[i]);
+		}
+		else if (students[i].cpo == "oth") {
+			othStudents.push(students[i]);
+		}
+		else if (students[i].cpo == "udg") {
+			udgStudents.push(students[i]);
 		}
 		else {
 			nonNumStudents.push(students[i]);
@@ -49,10 +73,12 @@ function compare(a, b) {
 }
 
 //run the sort by year function
-currentStudents.sort(compare);	
-pastStudents.sort(compare);	
-otherStudents.sort(compare);	
-
+cchStudents.sort(compare);	
+cmbStudents.sort(compare);	
+pchStudents.sort(compare);	
+pmbStudents.sort(compare);	
+othStudents.sort(compare);	
+udgStudents.sort(compare);	
 
 //take the wirtings and create the html to be displayed by it by section
 function createHTML (studentSet) {
@@ -65,14 +91,18 @@ function createHTML (studentSet) {
 	return frame;
 }
 
-
 // build each section
-currentFrame = createHTML(currentStudents);
-pastFrame = createHTML(pastStudents);
-otherFrame = createHTML(otherStudents);
-
+cchFrame = createHTML(cchStudents);
+cmbFrame = createHTML(cmbStudents);
+pchFrame = createHTML(pchStudents);
+pmbFrame = createHTML(pmbStudents);
+othFrame = createHTML(othStudents);
+udgFrame = createHTML(udgStudents);
 
 // write each section to the page
-currentSection.innerHTML = currentFrame;
-pastSection.innerHTML = pastFrame;
-otherSection.innerHTML = otherFrame;
+cchSection.innerHTML = cchFrame;
+cmbSection.innerHTML = cmbFrame;
+pchSection.innerHTML = pchFrame;
+pmbSection.innerHTML = pmbFrame;
+othSection.innerHTML = othFrame;
+udgSection.innerHTML = udgFrame;
