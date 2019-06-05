@@ -2,72 +2,83 @@
 //year must be filled out
 var students = [
 	{
-		"studentName" : "Cory Davia",
+		"studentName" : "Amy Berg",
 		"year" : "2015",
-		"cpo" : "current",
-		"description" : "advanced to candidacy in fall, 2015.   His topic is  'Being a Rational Agent and Being a Particular Agent: on the Sources of Normativity.''  Dana Nelkin and David Brink are cochairing the dissertation committee; I'm a member of the thesis committee."
+		"cpo" : "past",
+		"description" : "completed her Ph.D dissertaton in 2015 on 'Studies in Ideal and Non-Ideal Theory'. Thesis work co-directed with David Brink.  Currently assistant professor, Philosophy, Rhode Island Colllege."
 	},
 	{
 		"studentName" : "J.P. Messina",
-		"year" : "2016",
-		"cpo" : "current",
-		"description" : "is working on a project on 'Kant's Provisional Politics of Freedom'He plans to advance to candidacy in fall, 2016. I hope to be involved as co-chair of his dissertation committee."
+		"year" : "2018",
+		"cpo" : "past",
+		"description" : "completed a Ph.D. dissertation in 2018 on 'Political Obligation and Provisional Rights: A Study in Kant's Politics of Freedom.'  Thesis co-directed with Eric Watkins.  2018-19 academic year spent at The Freedom Project, Wellesley College.  Starting fall, 2019, research position at The Murphy Institute, Tulane University."
 	},
 	{
 		"studentName" : "Michael Tiboris",
 		"year" : "2012",
 		"cpo" : "past",
-		"description" : "advanced to candidacy in September, 2007 and successfully defended his Ph.D. dissertation in March, 2012. His topic was 'Youth and Diminished Responsibility.'' Dana Nelkin and I co-chaired his doctroral committee. He currently is working on iossues concerning autonomy in education. He is being supported by a post-doctoral fellowship from the Spencer Foundation."
+		"description" : "completed a Ph.D. dissertation on 'Youth and Diminished Responsibility.' Thesis co-directed with Dana Nelkin.  2012-2013 academic year spent doing research supported by a Spencer Foundation Fellowship. Currently Fellow at, Chicago."
 	},
 	{
 		"studentName" : "Eric Campbell",
 		"year" : "2007",
 		"cpo" : "past",
-		"description" : "advanced to candidacy in September, 2007. In June, 2012 he successfully defended his Ph.D. dissertation on 'Breakdown of Morality' and now has the Ph.D. degree in hand. David Brink and I co-chaired his dissertation committee. He obtained a post-doctoral fellowship at Georgetown University and is now assistant professor at The University of Maryland, Baltimore County."
+		"description" : "advance'Breakdown of Morality.' Thesis co-rirected with David Brink.  Currently assistant professor of philosophy at The University of Maryland, Baltimore County."
 	},
 	{
-		"studentName" : "Evan Moreno-Davis",
-		"year" : "2006",
-		"cpo" : "other",
-		"description" : "has completed a M. A. thesis on  moral responsibility.  Dana Nelkin, Pat Churchland,  and I worked with him.     I served on the dissertation committee of Anna Alexandrova, who advanced to candidacy in March, 2003 and successfully defended her thesis in March, 2006.  Her Ph.D. dissertation is on  'Methods and Causes in Social Science.' Nancy Cartwright was her dissertation supervisor. Her first academic position was as assistant professor at the University of Missouri-St.Louis starting in 2007; her current academic affiliation is at Cambridge University."
+		"studentName" : "Kathryn Joyce",
+		"year" : "na",
+		"cpo" : "current",
+		"description" : "advaced to candidacy in Fall, 2017.  Her topic is 'Relational Egalitarianism.' Thesis project co-directed with David Brink."
 	},
 		{
-		"studentName" : "Cory Davia",
+		"studentName" : "Aaron Finley",
+		"year" : "na",
+		"cpo" : "current",
+		"description" : "advanced to candidacy in fall, 2017.   His topic is  'The Principle of Fairness in International Schemes.' Thesis project co-directed with Saba Bazargan-Forward."
+	},
+	{
+		"studentName" : "Nanhee Byrnes",
 		"year" : "2015",
-		"cpo" : "current",
-		"description" : "advanced to candidacy in fall, 2015.   His topic is  'Being a Rational Agent and Being a Particular Agent: on the Sources of Normativity.''  Dana Nelkin and David Brink are cochairing the dissertation committee; I'm a member of the thesis committee."
-	},
-	{
-		"studentName" : "J.P. Messina",
-		"year" : "2016",
-		"cpo" : "current",
-		"description" : "is working on a project on 'Kant's Provisional Politics of Freedom'He plans to advance to candidacy in fall, 2016. I hope to be involved as co-chair of his dissertation committee."
-	},
-	{
-		"studentName" : "Michael Tiboris",
-		"year" : "2012",
 		"cpo" : "past",
-		"description" : "advanced to candidacy in September, 2007 and successfully defended his Ph.D. dissertation in March, 2012. His topic was 'Youth and Diminished Responsibility.'' Dana Nelkin and I co-chaired his doctroral committee. He currently is working on iossues concerning autonomy in education. He is being supported by a post-doctoral fellowship from the Spencer Foundation."
+		"description" : "Completed a Ph.D. dissertation on 'The Best Results Argument for Democracy.'  Currently working outside academia."
 	},
 	{
-		"studentName" : "Eric Campbell",
+		"studentName" : "Danny Weltman",
+		"year" : "2018",
+		"cpo" : "past",
+		"description" : "completed a Ph.D. dissertation on 'A Cosmopolitan Theory of Secession.'Currently assistant professor of philosophy, Ashoka University, India."
+	},
+	{
+		"studentName" : "Dale Dorsey",
 		"year" : "2007",
 		"cpo" : "past",
-		"description" : "advanced to candidacy in September, 2007. In June, 2012 he successfully defended his Ph.D. dissertation on 'Breakdown of Morality' and now has the Ph.D. degree in hand. David Brink and I co-chaired his dissertation committee. He obtained a post-doctoral fellowship at Georgetown University and is now assistant professor at The University of Maryland, Baltimore County."
+		"description" : "completed a Ph.D. dissertation on 'Thresholds and the Good: A Program of Political Evaluation.' Currently professor of philosophy at Kansas University."
 	},
 	{
-		"studentName" : "Evan Moreno-Davis",
+		"studentName" : "Thomas Kirkpatrick",
+		"year" : "na",
+		"cpo" : "current",
+		"description" : "is working on the topic of 'Left-Libertarianism' and plans to advance to candidacy in summer, 2019.  Thesis project to be co-directed with Saba Bazargan-Forward."
+	},
+	{
+		"studentName" : "Theron Pummer",
+		"year" : "2013",
+		"cpo" : "past",
+		"description" : "completed a Ph.D. dissertation in 2013 on 'The Ethics of Distribution.'  Thesis co-directed with David Brink.  Currently holds a tenutred position at St. Andrews University, Scotland."
+	},
+	{
+		"studentName" : "Erin Frykholm",
+		"year" : "2011",
+		"cpo" : "past",
+		"description" : "completed a Ph.D. disseertation on 'Narrative epistemology and the Variability of Virtues: hume on Character and Moral Evaluation.' Thesis co-directed with Donald Rutherford.  Currently is associate professor of philosophy at Kansas University."
+	},
+	{
+		"studentName" : "Jeff Stedman",
 		"year" : "2006",
-		"cpo" : "other",
-		"description" : "has completed a M. A. thesis on  moral responsibility.  Dana Nelkin, Pat Churchland,  and I worked with him.     I served on the dissertation committee of Anna Alexandrova, who advanced to candidacy in March, 2003 and successfully defended her thesis in March, 2006.  Her Ph.D. dissertation is on  'Methods and Causes in Social Science.' Nancy Cartwright was her dissertation supervisor. Her first academic position was as assistant professor at the University of Missouri-St.Louis starting in 2007; her current academic affiliation is at Cambridge University."
-	},
-	{
-		"studentName" : "Luke Robinson",
-		"year" : "2005",
-		"cpo" : "other",
-		"description" : " In October, 2005 he successfully defended his Ph.D. dissertation on 'The Metaphysics of Morality: A Dispositionalist Account.'  He is now assistant profesor of philosophy at Southern Methodist University. "
+		"cpo" : "past",
+		"description" : "completed his Ph.D. on 'Theories of gthe Good'. Dissertation co-directed with David Brink.  Not currently working in an academic post."
 	}
-
 ]
 
 

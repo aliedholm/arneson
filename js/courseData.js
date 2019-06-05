@@ -1,5 +1,3 @@
-//must fill out year
-//if no filename must put "na"
 var courses = [
 	{
 		"title" : "Well-Being & its Political Significance",
